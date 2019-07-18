@@ -14,5 +14,9 @@ public class fingdTest {
         for (Log log:list){
             System.out.println(log);
         }
+        List<Log> list1=logService.findAll();
+        for (Log log:list1){
+            System.out.println(log);
+        }
     }
 }

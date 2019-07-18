@@ -1,6 +1,8 @@
 package com.liyan.pojo;
 
-public class Log {
+import java.io.Serializable;
+
+public class Log  implements Serializable {
     private Integer id;
     private String accOut;
     private String accIn;
